@@ -1,0 +1,23 @@
+Source: libmonitoring-livestatus-class-perl
+Section: perl
+Priority: optional
+Maintainer: Alexander Wirt <formorer@debian.org>
+Build-Depends: debhelper (>= 8),
+               libmodule-find-perl,
+               libmonitoring-livestatus-perl,
+               libmoose-perl
+Build-Depends-Indep: perl
+Standards-Version: 3.9.3
+Homepage: http://search.cpan.org/dist/Monitoring-Livestatus-Class/
+
+Package: libmonitoring-livestatus-class-perl
+Architecture: all
+Depends: libmonitoring-livestatus-perl,
+         libmoose-perl,
+         ${misc:Depends},
+         ${perl:Depends}
+Description: Object-Oriented interface for Monitoring::Livestatus
+ This module is an object-oriented interface for Monitoring::Livestatus
+ .
+ The module is still in an early stage of development, there can be some 
+ api changes between releases.

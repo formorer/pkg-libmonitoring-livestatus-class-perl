@@ -1,3 +1,10 @@
+libmonitoring-livestatus-class-perl (0.04-1) unstable; urgency=low
+
+  * [d0a11ab] Imported Upstream version 0.04
+    - Fix sort problem with Perl 5.18 (Closes: #710945)
+
+ -- Alexander Wirt <formorer@debian.org>  Mon, 03 Jun 2013 20:39:58 +0200
+
 libmonitoring-livestatus-class-perl (0.3-1) unstable; urgency=low
 
   * Initial Release.

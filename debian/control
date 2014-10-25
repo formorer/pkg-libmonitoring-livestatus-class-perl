@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 8),
                libmonitoring-livestatus-perl,
                libmoose-perl
 Build-Depends-Indep: perl
-Standards-Version: 3.9.3
+Standards-Version: 3.9.6
 Homepage: http://search.cpan.org/dist/Monitoring-Livestatus-Class/
 
 Package: libmonitoring-livestatus-class-perl

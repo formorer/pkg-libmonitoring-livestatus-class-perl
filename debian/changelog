@@ -1,3 +1,10 @@
+libmonitoring-livestatus-class-perl (0.06-1) unstable; urgency=medium
+
+  * [7906d6a] Imported Upstream version 0.06
+  * [a68c948] bump standards version
+
+ -- Alexander Wirt <formorer@debian.org>  Sun, 26 Oct 2014 00:19:39 +0200
+
 libmonitoring-livestatus-class-perl (0.04-1) unstable; urgency=low
 
   * [d0a11ab] Imported Upstream version 0.04
